@@ -1,0 +1,28 @@
+[
+ (stmt_list) {
+  (expression_statement) {
+   (expr_logical_or) {
+    (expr_logical_and) {
+     (expr_logical_and) {
+      (expr_equal) {
+       Expr1
+       ==
+       Expr2
+      }
+      &&
+      (expr_notequal) {
+       Expr3
+       !=
+       Expr4
+      }
+     }
+     &&
+     Expr5
+    }
+    ||
+    Expr6
+   }
+   ;
+  }
+ }
+]

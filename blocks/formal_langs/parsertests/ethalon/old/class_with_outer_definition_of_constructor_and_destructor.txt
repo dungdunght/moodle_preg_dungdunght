@@ -1,0 +1,93 @@
+[
+ (program) {
+  (class_definition) {
+   (class_header) {
+    class
+    A
+   }
+   (class_body) {
+    {
+    (structure_components_list) {
+     (inner_constructor_definition) {
+      (decl_specifiers) {
+       A
+      }
+      (formal_args_list) {
+       (
+       )
+      }
+      ;
+     }
+     (inner_destructor_definition) {
+      ~
+      A
+      (formal_args_list) {
+       (
+       )
+      }
+      ;
+     }
+    }
+    }
+   }
+   ;
+  }
+  (outer_constructor_definition) {
+   (outer_constructor_name) {
+    (namespace_resolve) {
+     A
+     ::
+    }
+    A
+   }
+   (formal_args_list) {
+    (
+    )
+   }
+   (function_body) {
+    {
+    (stmt_list) {
+     (expression_statement) {
+      (expr_function_call) {
+       construct
+       (
+       this
+       )
+      }
+      ;
+     }
+    }
+    }
+   }
+  }
+  (outer_destructor_definition) {
+   (outer_destructor_name) {
+    (namespace_resolve) {
+     A
+     ::
+    }
+    ~
+    A
+   }
+   (formal_args_list) {
+    (
+    )
+   }
+   (function_body) {
+    {
+    (stmt_list) {
+     (expression_statement) {
+      (expr_function_call) {
+       destroy
+       (
+       this
+       )
+      }
+      ;
+     }
+    }
+    }
+   }
+  }
+ }
+]

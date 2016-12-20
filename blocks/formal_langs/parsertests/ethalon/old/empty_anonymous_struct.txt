@@ -1,0 +1,15 @@
+[
+ (program) {
+  (struct_definition) {
+   (struct_header) {
+    struct
+   }
+   (struct_body) {
+    {
+    }
+   }
+   A
+   ;
+  }
+ }
+]

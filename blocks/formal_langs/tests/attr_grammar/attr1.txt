@@ -1,0 +1,44 @@
+(rule_list) {
+ (rule) {
+  (node_description) {
+   expr_prec_11
+   (text_of_descriptions) {
+    a
+   }
+  }
+  (node_description_list) {
+   (rule) {
+    (node_description) {
+     kv
+     (text_of_descriptions) {
+      2
+     }
+    }
+    (node_description_list) {
+     (node_description) {
+      TLDR
+      (text_of_descriptions) {
+       cb
+      }
+     }
+    }
+   }
+   (rule) {
+    (node_description) {
+     kv
+     (text_of_descriptions) {
+      2
+     }
+    }
+    (node_description_list) {
+     (node_description) {
+      TLDR
+      (text_of_descriptions) {
+       cb
+      }
+     }
+    }
+   }
+  }
+ }
+}

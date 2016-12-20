@@ -1,0 +1,47 @@
+[
+ (program) {
+  (function_definition) {
+   (decl_specifiers) {
+    (builtintype) {
+     void
+    }
+   }
+   (lvalue) {
+    test
+   }
+   (formal_args_list) {
+    (
+    )
+   }
+   (function_body) {
+    {
+    (stmt_list) {
+     (expression_statement) {
+      (expr_function_call) {
+       test
+       (
+       )
+      }
+      ;
+     }
+    }
+    }
+   }
+  }
+  (function_definition) {
+   (decl_specifiers) {
+    (builtintype) {
+     void
+    }
+   }
+   (lvalue) {
+    test
+   }
+   (formal_args_list) {
+    (
+    )
+   }
+   ;
+  }
+ }
+]

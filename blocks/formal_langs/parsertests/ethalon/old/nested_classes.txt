@@ -1,0 +1,67 @@
+[
+ (program) {
+  (class_definition) {
+   (class_header) {
+    class
+    A
+   }
+   (class_body) {
+    {
+    (structure_components_list) {
+     (visibility_specifier) {
+      public
+      :
+     }
+     (class_definition) {
+      (class_header) {
+       class
+       B
+      }
+      (class_body) {
+       {
+       }
+      }
+      ;
+     }
+     (function_definition) {
+      (decl_specifiers) {
+       (builtintype) {
+        void
+       }
+      }
+      (lvalue) {
+       f
+      }
+      (formal_args_list) {
+       (
+       )
+      }
+      (function_body) {
+       {
+       }
+      }
+     }
+    }
+    }
+   }
+   ;
+  }
+  (variable_declaration) {
+   (decl_specifiers) {
+    (scoped_type) {
+     (namespace_resolve) {
+      A
+      ::
+     }
+     B
+    }
+   }
+   (definition_list) {
+    (lvalue) {
+     k
+    }
+   }
+   ;
+  }
+ }
+]

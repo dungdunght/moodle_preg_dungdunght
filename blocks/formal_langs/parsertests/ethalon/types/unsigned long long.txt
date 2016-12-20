@@ -1,0 +1,9 @@
+[
+ (decl_specifiers) {
+  (builtintype) {
+   unsigned
+   long
+   long
+  }
+ }
+]

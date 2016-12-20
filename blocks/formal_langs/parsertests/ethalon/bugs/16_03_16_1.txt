@@ -1,0 +1,79 @@
+[
+ (stmt_list) {
+  (for_statement) {
+   for
+   (
+   (expression_statement) {
+    (expr_assign) {
+     i
+     =
+     0
+    }
+    ;
+   }
+   (expression_statement) {
+    (expr_lesser) {
+     i
+     <
+     2
+    }
+    ;
+   }
+   (expr_postfix_increment) {
+    i
+    ++
+   }
+   )
+   (block_statement) {
+    {
+    }
+   }
+  }
+  (for_statement) {
+   for
+   (
+   (variable_declaration) {
+    (decl_specifiers) {
+     (builtintype) {
+      int
+     }
+    }
+    (definition_list) {
+     (definition) {
+      (lvalue) {
+       i
+      }
+      (initializer) {
+       =
+       0
+      }
+     }
+    }
+    ;
+   }
+   (empty_statement) {
+    ;
+   }
+   )
+   (block_statement) {
+    {
+    }
+   }
+  }
+  (for_statement) {
+   for
+   (
+   (empty_statement) {
+    ;
+   }
+   (empty_statement) {
+    ;
+   }
+   )
+   (block_statement) {
+    {
+    }
+   }
+  }
+ }
+]

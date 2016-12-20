@@ -1,0 +1,67 @@
+[
+ (program) {
+  (union_definition) {
+   (union_header) {
+    union
+    A
+   }
+   (union_body) {
+    {
+    (structure_components_list) {
+     (variable_declaration) {
+      (decl_specifiers) {
+       (builtintype) {
+        int
+       }
+      }
+      (definition_list) {
+       (lvalue) {
+        k
+       }
+      }
+      ;
+     }
+     (variable_declaration) {
+      (decl_specifiers) {
+       (builtintype) {
+        double
+       }
+      }
+      (definition_list) {
+       (lvalue) {
+        k2
+       }
+      }
+      ;
+     }
+     (variable_declaration) {
+      (decl_specifiers) {
+       (builtintype) {
+        char
+       }
+      }
+      (definition_list) {
+       (lvalue) {
+        k3
+       }
+      }
+      ;
+     }
+    }
+    }
+   }
+   ;
+  }
+  (variable_declaration) {
+   (decl_specifiers) {
+    A
+   }
+   (definition_list) {
+    (lvalue) {
+     k
+    }
+   }
+   ;
+  }
+ }
+]

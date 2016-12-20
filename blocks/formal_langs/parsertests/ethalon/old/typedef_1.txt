@@ -1,0 +1,35 @@
+[
+ (program) {
+  (typedef_declaration) {
+   typedef
+   (builtintype) {
+    int
+   }
+   (lvalue) {
+    __int32
+   }
+   ;
+  }
+  (variable_declaration) {
+   (decl_specifiers) {
+    __int32
+   }
+   (definition_list) {
+    (definition) {
+     (lvalue) {
+      A
+     }
+     (initializer) {
+      =
+      (expr_plus) {
+       32
+       +
+       64
+      }
+     }
+    }
+   }
+   ;
+  }
+ }
+]

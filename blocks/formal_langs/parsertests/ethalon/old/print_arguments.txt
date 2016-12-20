@@ -1,0 +1,101 @@
+[
+ (program) {
+  (function_definition) {
+   (decl_specifiers) {
+    (builtintype) {
+     int
+    }
+   }
+   (lvalue) {
+    main
+   }
+   (formal_args_list) {
+    (
+    (arg_list) {
+     (arg) {
+      (decl_specifiers) {
+       (builtintype) {
+        int
+       }
+      }
+      (lvalue) {
+       argc
+      }
+     }
+     ,
+     (arg) {
+      (decl_specifiers) {
+       (builtintype) {
+        char
+       }
+      }
+      (lvalue) {
+       *
+       (lvalue) {
+        *
+        (lvalue) {
+         argv
+        }
+       }
+      }
+     }
+    }
+    )
+   }
+   (function_body) {
+    {
+    (stmt_list) {
+     (for_statement) {
+      for
+      (
+      (expression_statement) {
+       (expr_assign) {
+        i
+        =
+        0
+       }
+       ;
+      }
+      (expression_statement) {
+       (expr_lesser) {
+        i
+        <
+        argc
+       }
+       ;
+      }
+      (expr_postfix_increment) {
+       i
+       ++
+      }
+      )
+      (expression_statement) {
+       (expr_function_call) {
+        printf
+        (
+        (expr_list) {
+         "%d"
+         ,
+         (expr_array_access) {
+          argv
+          [
+          i
+          ]
+         }
+        }
+        )
+       }
+       ;
+      }
+     }
+     (return_statement) {
+      return
+      0
+      ;
+     }
+    }
+    }
+   }
+  }
+ }
+]

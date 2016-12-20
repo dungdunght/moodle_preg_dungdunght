@@ -1,0 +1,85 @@
+[
+ (stmt_list) {
+  (typedef_declaration) {
+   typedef
+   (builtintype) {
+    int
+   }
+   (lvalue) {
+    Exception
+   }
+   ;
+  }
+  (try_catch) {
+   (try) {
+    try
+    {
+    (stmt_list) {
+     (expression_statement) {
+      (expr_assign) {
+       a
+       =
+       (expr_function_call) {
+        unescaped_call
+        (
+        )
+       }
+      }
+      ;
+     }
+    }
+    }
+   }
+   (catch_list) {
+    (catch) {
+     catch
+     (
+     (exception_specification) {
+      (decl_specifiers) {
+       Exception
+      }
+      (definition_list) {
+       (lvalue) {
+        ex
+       }
+      }
+     }
+     )
+     {
+     (stmt_list) {
+      (variable_declaration) {
+       (decl_specifiers) {
+        (builtintype) {
+         int
+        }
+       }
+       (definition_list) {
+        (definition) {
+         (lvalue) {
+          a
+         }
+         (initializer) {
+          =
+          2
+         }
+        }
+       }
+       ;
+      }
+     }
+     }
+    }
+    (catch) {
+     catch
+     (
+     (exception_specification) {
+      ...
+     }
+     )
+     {
+     }
+    }
+   }
+  }
+ }
+]

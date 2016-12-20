@@ -1,0 +1,57 @@
+[
+ (stmt_list) {
+  (switch_statement) {
+   switch
+   (
+   a
+   )
+   (switch_statement_body) {
+    {
+    (switch_case_list) {
+     (switch_case) {
+      (switch_case_label) {
+       case
+       1
+       :
+      }
+      (stmt_list) {
+       (block_statement) {
+        {
+        (stmt_list) {
+         (variable_declaration) {
+          (decl_specifiers) {
+           (builtintype) {
+            int
+           }
+          }
+          (definition_list) {
+           (definition) {
+            (lvalue) {
+             test
+            }
+            (initializer) {
+             =
+             (expr_plus) {
+              a
+              +
+              b
+             }
+            }
+           }
+          }
+          ;
+         }
+        }
+        }
+       }
+      }
+     }
+    }
+    }
+   }
+  }
+  (empty_statement) {
+   ;
+  }
+ }
+]

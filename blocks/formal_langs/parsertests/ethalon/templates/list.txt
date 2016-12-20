@@ -1,0 +1,84 @@
+[
+ (program) {
+  (class_definition) {
+   (class_header) {
+    (template_def) {
+     template
+     <
+     (template_spec) {
+      typename
+      T
+     }
+     >
+    }
+    class
+   }
+   (class_body) {
+    {
+    (structure_components_list) {
+     (variable_declaration) {
+      (decl_specifiers) {
+       T
+      }
+      (definition_list) {
+       (lvalue) {
+        *
+        (lvalue) {
+         data
+        }
+       }
+      }
+      ;
+     }
+     (variable_declaration) {
+      (decl_specifiers) {
+       (instantiated_template_type) {
+        List
+        (template_instantiation_arguments) {
+         <
+         (decl_specifiers) {
+          T
+         }
+         >
+        }
+       }
+      }
+      (definition_list) {
+       (lvalue) {
+        *
+        (lvalue) {
+         next
+        }
+       }
+      }
+      ;
+     }
+    }
+    }
+   }
+   ;
+  }
+  (variable_declaration) {
+   (decl_specifiers) {
+    (instantiated_template_type) {
+     List
+     (template_instantiation_arguments) {
+      <
+      (decl_specifiers) {
+       (builtintype) {
+        int
+       }
+      }
+      >
+     }
+    }
+   }
+   (definition_list) {
+    (lvalue) {
+     a
+    }
+   }
+   ;
+  }
+ }
+]

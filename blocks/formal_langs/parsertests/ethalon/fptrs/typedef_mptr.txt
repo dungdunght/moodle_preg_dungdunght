@@ -1,0 +1,74 @@
+[
+ (program) {
+  (typedef_declaration) {
+   typedef
+   (builtintype) {
+    int
+   }
+   (lvalue) {
+    (
+    (namespace_resolve) {
+     a
+     ::
+    }
+    (definition_list) {
+     (lvalue) {
+      *
+      (lvalue) {
+       f
+      }
+     }
+    }
+    )
+    (formal_args_list) {
+     (
+     (arg_list) {
+      (arg) {
+       (decl_specifiers) {
+        (builtintype) {
+         double
+        }
+       }
+      }
+      ,
+      (arg) {
+       (decl_specifiers) {
+        (builtintype) {
+         double
+        }
+       }
+      }
+     }
+     )
+    }
+   }
+   ;
+  }
+  (variable_declaration) {
+   (decl_specifiers) {
+    f
+   }
+   (definition_list) {
+    (definition) {
+     (lvalue) {
+      m
+     }
+     (initializer) {
+      =
+      (expr_take_adress) {
+       &
+       (scoped_identifier) {
+        (namespace_resolve) {
+         a
+         ::
+        }
+        method
+       }
+      }
+     }
+    }
+   }
+   ;
+  }
+ }
+]

@@ -1,0 +1,230 @@
+(rule_list) {
+ (rule) {
+  (node_description) {
+   expr_prec_11
+   (text_of_descriptions) {
+    a
+   }
+  }
+  (node_description_list) {
+   (rule) {
+    (node_description) {
+     head
+     (text_of_descriptions) {
+      (specifier) {
+       %ur
+      }
+     }
+    }
+    (node_description_list) {
+     (rule) {
+      (node_description) {
+       tail
+       (text_of_descriptions) {
+        (specifier) {
+         %ur
+        }
+       }
+      }
+      (node_description_list) {
+       (rule) {
+        (node_description) {
+         tail2
+         (text_of_descriptions) {
+          (specifier) {
+           %ur
+          }
+         }
+        }
+        (node_description_list) {
+         (node_description) {
+          tail3
+          (text_of_descriptions) {
+           (specifier) {
+            %ur
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+   (node_description) {
+    test1
+    (text_of_descriptions) {
+     (specifier) {
+      %ur
+      (args) {
+       именительный
+      }
+     }
+    }
+   }
+  }
+ }
+ (rule) {
+  (node_description) {
+   expr_prec_11
+   (text_of_descriptions) {
+    a
+   }
+  }
+  (node_description_list) {
+   (rule) {
+    (node_description) {
+     head
+     (text_of_descriptions) {
+      (specifier) {
+       %ur
+      }
+     }
+    }
+    (node_description_list) {
+     (rule) {
+      (node_description) {
+       tail
+       (text_of_descriptions) {
+        (specifier) {
+         %ur
+        }
+       }
+      }
+      (node_description_list) {
+       (rule) {
+        (node_description) {
+         tail2
+         (text_of_descriptions) {
+          (specifier) {
+           %ur
+          }
+         }
+        }
+        (node_description_list) {
+         (node_description) {
+          tail3
+          (text_of_descriptions) {
+           (specifier) {
+            %ur
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+   (node_description) {
+    test1
+    (text_of_descriptions) {
+     (specifier) {
+      %ur
+      (args) {
+       именительный
+      }
+     }
+    }
+   }
+  }
+ }
+ (rule) {
+  (node_description) {
+   expr_prec_11
+   (text_of_descriptions) {
+    a
+   }
+  }
+  (node_description_list) {
+   (rule) {
+    (node_description) {
+     head
+     (text_of_descriptions) {
+      (specifier) {
+       %ur
+      }
+     }
+    }
+    (node_description_list) {
+     (rule) {
+      (node_description) {
+       tail
+       (text_of_descriptions) {
+        (specifier) {
+         %ur
+        }
+       }
+      }
+      (node_description_list) {
+       (rule) {
+        (node_description) {
+         tail2
+         (text_of_descriptions) {
+          (specifier) {
+           %ur
+          }
+         }
+        }
+        (node_description_list) {
+         (node_description) {
+          tail3
+          (text_of_descriptions) {
+           (specifier) {
+            %ur
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+   (node_description) {
+    test1
+    (text_of_descriptions) {
+     (specifier) {
+      %ur
+      (args) {
+       именительный
+      }
+     }
+    }
+   }
+  }
+ }
+ (rule) {
+  (node_description) {
+   expr_prec_10
+   (text_of_descriptions) {
+    "
+    "
+   }
+  }
+  (node_description_list) {
+   (node_description) {
+    a
+    (text_of_descriptions) {
+     тест 
+     (specifier) {
+      %ur
+      (args) {
+       2
+        именительный
+      }
+     }
+      22
+    }
+   }
+   (node_description) {
+    b
+    (text_of_descriptions) {
+     (specifier) {
+      %1
+     }
+    }
+   }
+  }
+ }
+}

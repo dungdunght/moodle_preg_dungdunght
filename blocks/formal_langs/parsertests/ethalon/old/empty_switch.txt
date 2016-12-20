@@ -1,0 +1,17 @@
+[
+ (stmt_list) {
+  (switch_statement) {
+   switch
+   (
+   a
+   )
+   (switch_statement_body) {
+    {
+    }
+   }
+  }
+  (empty_statement) {
+   ;
+  }
+ }
+]

@@ -1,0 +1,76 @@
+[
+ (program) {
+  (namespace_definition) {
+   (namespace_header) {
+    namespace
+    A
+   }
+   (namespace_body) {
+    {
+    (namespace_declarations_list) {
+     (namespace_definition) {
+      (namespace_header) {
+       namespace
+       B
+      }
+      (namespace_body) {
+       {
+       (namespace_declarations_list) {
+        (namespace_definition) {
+         (namespace_header) {
+          namespace
+          C
+         }
+         (namespace_body) {
+          {
+          (namespace_declarations_list) {
+           (class_definition) {
+            (class_header) {
+             class
+             D
+            }
+            (class_body) {
+             {
+             }
+            }
+            ;
+           }
+          }
+          }
+         }
+        }
+       }
+       }
+      }
+     }
+    }
+    }
+   }
+  }
+  (variable_declaration) {
+   (decl_specifiers) {
+    (scoped_type) {
+     (namespace_resolve) {
+      (namespace_resolve) {
+       (namespace_resolve) {
+        A
+        ::
+       }
+       B
+       ::
+      }
+      C
+      ::
+     }
+     D
+    }
+   }
+   (definition_list) {
+    (lvalue) {
+     k
+    }
+   }
+   ;
+  }
+ }
+]

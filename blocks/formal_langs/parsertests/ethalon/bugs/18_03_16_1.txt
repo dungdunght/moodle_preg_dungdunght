@@ -1,0 +1,51 @@
+[
+ (program) {
+  (function_definition) {
+   (decl_specifiers) {
+    vector
+   }
+   (operator_overload_declaration) {
+    &
+    operator=
+   }
+   (formal_args_list) {
+    (
+    (arg_list) {
+     (arg) {
+      (decl_specifiers) {
+       vector
+      }
+      (lvalue) {
+       &
+       a
+      }
+     }
+     ,
+     (arg) {
+      (decl_specifiers) {
+       vector
+      }
+      (abstract_declarator) {
+       &
+      }
+     }
+    }
+    )
+   }
+   (function_body) {
+    {
+    (stmt_list) {
+     (return_statement) {
+      return
+      (expr_dereference) {
+       *
+       this
+      }
+      ;
+     }
+    }
+    }
+   }
+  }
+ }
+]

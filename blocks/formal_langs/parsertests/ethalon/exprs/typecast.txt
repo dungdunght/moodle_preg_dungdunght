@@ -1,0 +1,33 @@
+[
+ (c_style_typecast_operator) {
+  (
+  (type) {
+   (decl_specifiers) {
+    (scoped_type) {
+     (namespace_resolve) {
+      std
+      ::
+     }
+     vector
+     (template_instantiation_arguments) {
+      <
+      (decl_specifiers) {
+       (builtintype) {
+        int
+       }
+      }
+      >
+     }
+    }
+   }
+   (abstract_declarator) {
+    *
+    (abstract_declarator) {
+     const
+     *
+    }
+   }
+  }
+  )
+ }
+]

@@ -1,0 +1,44 @@
+[
+ (program) {
+  (variable_declaration) {
+   (decl_specifiers) {
+    (builtintype) {
+     int
+    }
+   }
+   (definition_list) {
+    (definition) {
+     (lvalue) {
+      (lvalue) {
+       k
+      }
+      (dimension_list) {
+       [
+       5
+       ]
+      }
+     }
+     (initializer) {
+      =
+      (initializer_list) {
+       {
+       (element_initializer_list) {
+        1
+        ,
+        2
+        ,
+        4
+        ,
+        3
+        ,
+        0
+       }
+       }
+      }
+     }
+    }
+   }
+   ;
+  }
+ }
+]

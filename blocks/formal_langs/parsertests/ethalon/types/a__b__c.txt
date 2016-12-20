@@ -1,0 +1,15 @@
+[
+ (decl_specifiers) {
+  (scoped_type) {
+   (namespace_resolve) {
+    (namespace_resolve) {
+     a
+     ::
+    }
+    b
+    ::
+   }
+   c
+  }
+ }
+]

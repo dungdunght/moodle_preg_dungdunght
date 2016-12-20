@@ -1,0 +1,36 @@
+[
+ (program) {
+  (comment_list) {
+   /* 2 + 3 */
+  }
+  (variable_declaration) {
+   (decl_specifiers) {
+    (builtintype) {
+     (int) {
+      int
+      (comment_list) {
+       // some random typename
+      }
+     }
+    }
+   }
+   (definition_list) {
+    (lvalue) {
+     (identifier) {
+      a
+      (comment_list) {
+       /* Just simple object name */
+       /* a is nice name for variable */
+      }
+     }
+    }
+   }
+   (semicolon) {
+    ;
+    (comment_list) {
+     /* Just a comment for semicolon */
+    }
+   }
+  }
+ }
+]

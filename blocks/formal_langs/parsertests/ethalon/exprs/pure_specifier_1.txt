@@ -1,0 +1,95 @@
+[
+ (program) {
+  (class_definition) {
+   (class_header) {
+    class
+    A
+   }
+   (class_body) {
+    {
+    (structure_components_list) {
+     (function_definition) {
+      (decl_specifiers) {
+       virtual
+       (builtintype) {
+        void
+       }
+      }
+      (lvalue) {
+       C
+      }
+      (formal_args_list) {
+       (
+       )
+      }
+      (pure_specifier) {
+       =
+       0
+       ;
+      }
+     }
+     (function_definition) {
+      (decl_specifiers) {
+       virtual
+       (builtintype) {
+        void
+       }
+      }
+      (lvalue) {
+       c
+      }
+      (formal_args_list) {
+       (
+       )
+      }
+      const
+      (pure_specifier) {
+       =
+       0
+       ;
+      }
+     }
+     (function_definition) {
+      (decl_specifiers) {
+       virtual
+       (builtintype) {
+        int
+       }
+      }
+      operator~
+      (formal_args_list) {
+       (
+       )
+      }
+      (pure_specifier) {
+       =
+       0
+       ;
+      }
+     }
+     (function_definition) {
+      (decl_specifiers) {
+       virtual
+       (builtintype) {
+        int
+       }
+      }
+      operator~
+      (formal_args_list) {
+       (
+       )
+      }
+      const
+      (pure_specifier) {
+       =
+       0
+       ;
+      }
+     }
+    }
+    }
+   }
+   ;
+  }
+ }
+]

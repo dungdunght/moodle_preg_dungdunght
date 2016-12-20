@@ -1,0 +1,10 @@
+[
+ (decl_specifiers) {
+  const
+  (builtintype) {
+   unsigned
+   short
+   int
+  }
+ }
+]

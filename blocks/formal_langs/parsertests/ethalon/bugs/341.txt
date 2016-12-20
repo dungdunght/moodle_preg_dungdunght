@@ -1,0 +1,60 @@
+[
+ (program) {
+  (variable_declaration) {
+   (decl_specifiers) {
+    (builtintype) {
+     int
+    }
+   }
+   (definition_list) {
+    (definition) {
+     (lvalue) {
+      k
+     }
+     (initializer) {
+      =
+      (expr_minus) {
+       (expr_plus) {
+        (expr_plus) {
+         (expr_division) {
+          j
+          /
+          h
+         }
+         +
+         t
+        }
+        +
+        o
+       }
+       -
+       r
+      }
+     }
+    }
+   }
+   ;
+  }
+  (variable_declaration) {
+   (decl_specifiers) {
+    bool
+   }
+   (definition_list) {
+    (definition) {
+     (lvalue) {
+      g
+     }
+     (initializer) {
+      =
+      (expr_assign) {
+       kill
+       =
+       live
+      }
+     }
+    }
+   }
+   ;
+  }
+ }
+]

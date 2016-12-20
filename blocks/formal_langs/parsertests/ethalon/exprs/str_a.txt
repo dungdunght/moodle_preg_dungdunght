@@ -1,0 +1,22 @@
+[
+ (expr_typecast) {
+  (c_style_typecast_operator) {
+   (
+   (type) {
+    (decl_specifiers) {
+     (builtintype) {
+      int
+     }
+    }
+    (abstract_declarator) {
+     *
+    }
+   }
+   )
+  }
+  (preprocessor_stringify) {
+   #
+   a
+  }
+ }
+]

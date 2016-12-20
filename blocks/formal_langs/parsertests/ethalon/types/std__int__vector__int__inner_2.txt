@@ -1,0 +1,33 @@
+[
+ (decl_specifiers) {
+  (scoped_type) {
+   (namespace_resolve) {
+    (namespace_resolve) {
+     (instantiated_template_type) {
+      std
+      (template_instantiation_arguments) {
+       <
+       (decl_specifiers) {
+        (builtintype) {
+         int
+        }
+       }
+       >
+      }
+     }
+     ::
+    }
+    (instantiated_template_type) {
+     vector
+     (template_instantiation_arguments) {
+      <
+      2
+      >
+     }
+    }
+    ::
+   }
+   inner
+  }
+ }
+]

@@ -1,0 +1,62 @@
+[
+ (stmt_list) {
+  (if_then_else) {
+   (if_then) {
+    if
+    (
+    (expr_greater) {
+     a
+     >
+     22
+    }
+    )
+    (expression_statement) {
+     (expr_plus_assign) {
+      a
+      +=
+      5
+     }
+     ;
+    }
+   }
+   else
+   (block_statement) {
+    {
+    (stmt_list) {
+     (variable_declaration) {
+      (decl_specifiers) {
+       (builtintype) {
+        int
+       }
+      }
+      (definition_list) {
+       (definition) {
+        (lvalue) {
+         b
+        }
+        (initializer) {
+         =
+         (expr_function_call) {
+          rand
+          (
+          )
+         }
+        }
+       }
+      }
+      ;
+     }
+     (expression_statement) {
+      (expr_plus_assign) {
+       a
+       +=
+       b
+      }
+      ;
+     }
+    }
+    }
+   }
+  }
+ }
+]

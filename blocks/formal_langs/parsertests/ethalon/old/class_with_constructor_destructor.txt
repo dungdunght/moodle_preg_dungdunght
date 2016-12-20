@@ -1,0 +1,36 @@
+[
+ (program) {
+  (class_definition) {
+   (class_header) {
+    class
+    A
+   }
+   (class_body) {
+    {
+    (structure_components_list) {
+     (inner_constructor_definition) {
+      (decl_specifiers) {
+       A
+      }
+      (formal_args_list) {
+       (
+       )
+      }
+      ;
+     }
+     (inner_destructor_definition) {
+      ~
+      A
+      (formal_args_list) {
+       (
+       )
+      }
+      ;
+     }
+    }
+    }
+   }
+   ;
+  }
+ }
+]

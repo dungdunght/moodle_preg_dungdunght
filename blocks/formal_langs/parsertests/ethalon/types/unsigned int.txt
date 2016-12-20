@@ -1,0 +1,8 @@
+[
+ (decl_specifiers) {
+  (builtintype) {
+   unsigned
+   int
+  }
+ }
+]

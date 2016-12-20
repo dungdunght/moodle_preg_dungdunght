@@ -1,0 +1,29 @@
+[
+ (program) {
+  (enum_definition) {
+   (enum_header) {
+    enum
+    K
+   }
+   (enum_body) {
+    {
+    (enum_value) {
+     MY_VALUE
+    }
+    }
+   }
+   ;
+  }
+  (variable_declaration) {
+   (decl_specifiers) {
+    K
+   }
+   (definition_list) {
+    (lvalue) {
+     a
+    }
+   }
+   ;
+  }
+ }
+]

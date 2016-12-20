@@ -1,0 +1,23 @@
+[
+ (program) {
+  (namespace_definition) {
+   (namespace_header) {
+    namespace
+    A
+   }
+   (namespace_body) {
+    {
+    (namespace_declarations_list) {
+     (class_definition) {
+      (class_header) {
+       class
+       B
+      }
+      ;
+     }
+    }
+    }
+   }
+  }
+ }
+]

@@ -1,0 +1,110 @@
+[
+ (program) {
+  (class_definition) {
+   (class_header) {
+    (template_def) {
+     template
+     <
+     (template_spec) {
+      class
+      T
+     }
+     >
+    }
+    class
+   }
+   (class_body) {
+    {
+    }
+   }
+   ;
+  }
+  (class_definition) {
+   (class_header) {
+    (template_def) {
+     template
+     <
+     (template_spec_list) {
+      (template_spec_list) {
+       (template_spec) {
+        class
+        K
+       }
+       ,
+       (template_spec) {
+        class
+        V
+       }
+      }
+      ,
+      (template_spec) {
+       (template_def) {
+        template
+        <
+        (template_spec) {
+         typename
+        }
+        >
+       }
+       class
+       C
+       =
+       (decl_specifiers) {
+        myarray
+       }
+      }
+     }
+     >
+    }
+    class
+   }
+   (class_body) {
+    {
+    (structure_components_list) {
+     (variable_declaration) {
+      (decl_specifiers) {
+       (instantiated_template_type) {
+        C
+        (template_instantiation_arguments) {
+         <
+         (decl_specifiers) {
+          K
+         }
+         >
+        }
+       }
+      }
+      (definition_list) {
+       (lvalue) {
+        key
+       }
+      }
+      ;
+     }
+     (variable_declaration) {
+      (decl_specifiers) {
+       (instantiated_template_type) {
+        C
+        (template_instantiation_arguments) {
+         <
+         (decl_specifiers) {
+          V
+         }
+         >
+        }
+       }
+      }
+      (definition_list) {
+       (lvalue) {
+        value
+       }
+      }
+      ;
+     }
+    }
+    }
+   }
+   ;
+  }
+ }
+]

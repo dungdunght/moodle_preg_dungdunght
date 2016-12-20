@@ -1,0 +1,35 @@
+[
+ (stmt_list) {
+  (for_statement) {
+   for
+   (
+   (variable_declaration) {
+    (decl_specifiers) {
+     (builtintype) {
+      int
+     }
+    }
+    (definition_list) {
+     (definition) {
+      (lvalue) {
+       i
+      }
+      (initializer) {
+       =
+       0
+      }
+     }
+    }
+    ;
+   }
+   (empty_statement) {
+    ;
+   }
+   )
+   (block_statement) {
+    {
+    }
+   }
+  }
+ }
+]

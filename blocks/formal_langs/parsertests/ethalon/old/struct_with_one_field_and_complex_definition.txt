@@ -1,0 +1,42 @@
+[
+ (program) {
+  (struct_definition) {
+   (struct_header) {
+    struct
+    A
+   }
+   (struct_body) {
+    {
+    (structure_components_list) {
+     (variable_declaration) {
+      (decl_specifiers) {
+       (builtintype) {
+        int
+       }
+      }
+      (definition_list) {
+       (lvalue) {
+        k
+       }
+      }
+      ;
+     }
+    }
+    }
+   }
+   B
+   ;
+  }
+  (variable_declaration) {
+   (decl_specifiers) {
+    A
+   }
+   (definition_list) {
+    (lvalue) {
+     k
+    }
+   }
+   ;
+  }
+ }
+]

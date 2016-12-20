@@ -1,0 +1,54 @@
+[
+ (program) {
+  (class_definition) {
+   (class_header) {
+    class
+    Test
+   }
+   (class_body) {
+    {
+    (structure_components_list) {
+     (visibility_specifier) {
+      public
+      :
+     }
+     (function_definition) {
+      (decl_specifiers) {
+       (builtintype) {
+        void
+       }
+      }
+      (lvalue) {
+       k
+      }
+      (formal_args_list) {
+       (
+       )
+      }
+      ;
+     }
+     (visibility_specifier) {
+      private
+      :
+     }
+     (visibility_specifier) {
+      protected
+      :
+     }
+     (visibility_specifier) {
+      private
+      slots
+      :
+     }
+     (visibility_specifier) {
+      public
+      signals
+      :
+     }
+    }
+    }
+   }
+   ;
+  }
+ }
+]

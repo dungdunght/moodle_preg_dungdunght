@@ -1,0 +1,103 @@
+[
+ (program) {
+  (namespace_definition) {
+   (namespace_header) {
+    namespace
+    A
+   }
+   (namespace_body) {
+    {
+    (namespace_declarations_list) {
+     (namespace_definition) {
+      (namespace_header) {
+       namespace
+       B
+      }
+      (namespace_body) {
+       {
+       (namespace_declarations_list) {
+        (namespace_definition) {
+         (namespace_header) {
+          namespace
+          C
+         }
+         (namespace_body) {
+          {
+          (namespace_declarations_list) {
+           (function_definition) {
+            (decl_specifiers) {
+             (builtintype) {
+              void
+             }
+            }
+            (lvalue) {
+             main
+            }
+            (formal_args_list) {
+             (
+             )
+            }
+            (function_body) {
+             {
+             (stmt_list) {
+              (return_statement) {
+               return
+               ;
+              }
+             }
+             }
+            }
+           }
+           (variable_declaration) {
+            (decl_specifiers) {
+             (builtintype) {
+              int
+             }
+            }
+            (definition_list) {
+             (lvalue) {
+              r
+             }
+            }
+            ;
+           }
+          }
+          }
+         }
+        }
+       }
+       }
+      }
+     }
+    }
+    }
+   }
+  }
+  (variable_declaration) {
+   (decl_specifiers) {
+    (builtintype) {
+     int
+    }
+   }
+   (definition_list) {
+    (lvalue) {
+     m
+    }
+   }
+   ;
+  }
+  (variable_declaration) {
+   (decl_specifiers) {
+    (builtintype) {
+     int
+    }
+   }
+   (definition_list) {
+    (lvalue) {
+     o
+    }
+   }
+   ;
+  }
+ }
+]

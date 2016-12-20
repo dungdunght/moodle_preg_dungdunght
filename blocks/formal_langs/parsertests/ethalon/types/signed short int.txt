@@ -1,0 +1,9 @@
+[
+ (decl_specifiers) {
+  (builtintype) {
+   signed
+   short
+   int
+  }
+ }
+]

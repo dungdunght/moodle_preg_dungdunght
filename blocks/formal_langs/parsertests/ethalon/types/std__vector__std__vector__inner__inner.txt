@@ -1,0 +1,59 @@
+[
+ (namespace_resolve) {
+  std
+  ::
+ }
+,
+ vector
+,
+ <
+,
+ (namespace_resolve) {
+  std
+  ::
+ }
+,
+ vector
+,
+ <
+,
+ (type) {
+  (decl_specifiers) {
+   (builtintype) {
+    int
+   }
+  }
+  (abstract_declarator) {
+   *
+  }
+  ,
+  (type) {
+   (decl_specifiers) {
+    std
+   }
+   (abstract_declarator) {
+    &
+   }
+  }
+ }
+,
+ *
+,
+ >
+,
+ ::
+,
+ inner
+,
+ >
+,
+ ::
+,
+ (expr_lesser) {
+  inner
+  <
+  2
+ }
+,
+ >
+]

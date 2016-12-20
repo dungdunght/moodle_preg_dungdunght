@@ -1,0 +1,22 @@
+[
+ (decl_specifiers) {
+  (scoped_type) {
+   (namespace_resolve) {
+    (instantiated_template_type) {
+     std
+     (template_instantiation_arguments) {
+      <
+      (decl_specifiers) {
+       (builtintype) {
+        int
+       }
+      }
+      >
+     }
+    }
+    ::
+   }
+   vector
+  }
+ }
+]

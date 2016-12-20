@@ -1,0 +1,18 @@
+[
+ (expr_typecast) {
+  (c_style_typecast_operator) {
+   (
+   (decl_specifiers) {
+    (builtintype) {
+     int
+    }
+   }
+   )
+  }
+  (preprocessor_concat) {
+   std
+   ##
+   a
+  }
+ }
+]

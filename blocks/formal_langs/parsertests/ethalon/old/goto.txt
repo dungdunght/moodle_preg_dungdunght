@@ -1,0 +1,71 @@
+[
+ (stmt_list) {
+  (goto_label) {
+   label
+   :
+  }
+  (variable_declaration) {
+   (decl_specifiers) {
+    (builtintype) {
+     int
+    }
+   }
+   (definition_list) {
+    (definition) {
+     (lvalue) {
+      a
+     }
+     (initializer) {
+      =
+      2
+     }
+    }
+   }
+   ;
+  }
+  (if_then_else) {
+   (if_then) {
+    if
+    (
+    (expr_lesser) {
+     b
+     <
+     0
+    }
+    )
+    (goto_statement) {
+     goto
+     exit
+     ;
+    }
+   }
+  }
+  (expression_statement) {
+   (expr_function_call) {
+    printf
+    (
+    (expr_list) {
+     "%d"
+     ,
+     22
+    }
+    )
+   }
+   ;
+  }
+  (goto_statement) {
+   goto
+   label
+   ;
+  }
+  (goto_label) {
+   exit
+   :
+  }
+  (return_statement) {
+   return
+   0
+   ;
+  }
+ }
+]

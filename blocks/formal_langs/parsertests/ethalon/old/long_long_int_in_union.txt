@@ -1,0 +1,46 @@
+[
+ (program) {
+  (union_definition) {
+   (union_header) {
+    union
+    Variant
+   }
+   (union_body) {
+    {
+    (structure_components_list) {
+     (variable_declaration) {
+      (decl_specifiers) {
+       (builtintype) {
+        unsigned
+        int
+       }
+      }
+      (definition_list) {
+       (lvalue) {
+        A
+       }
+      }
+      ;
+     }
+     (variable_declaration) {
+      (decl_specifiers) {
+       (builtintype) {
+        long
+        long
+        int
+       }
+      }
+      (definition_list) {
+       (lvalue) {
+        A
+       }
+      }
+      ;
+     }
+    }
+    }
+   }
+   ;
+  }
+ }
+]
