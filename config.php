@@ -7,18 +7,18 @@ $CFG = new stdClass();
 $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
-$CFG->dbname    = 'moodle_for_diplom';
-$CFG->dbuser    = 'moodleuser';
+$CFG->dbname    = 'moodle';
+$CFG->dbuser    = 'root';
 $CFG->dbpass    = 'drogba123';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
-  'dbport' => 3316,
+  'dbport' => 3306,
   'dbsocket' => '',
 );
 
 $CFG->wwwroot   = 'http://localhost/moodle_for_diplom';
-$CFG->dataroot  = '/Applications/XAMPP/xamppfiles/moodledata3';
+$CFG->dataroot  = '/Applications/XAMPP/xamppfiles/moodledata_diplom';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
